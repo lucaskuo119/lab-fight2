@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>雞戰LAB</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont;
+      background: #ccbc60;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    /* PDF 頁面容器 */
+    .page {
+      display: flex;
+      justify-content: center;
+      padding: 24px 0;
+    }
+
+    /* PDF 圖片本體 */
+    .page img {
+      width: 100%;
+      max-width: 900px;   /* 像 PDF 一頁的寬度 */
+      height: auto;
+      background: white;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>雞戰LAB</h1>
+
+  <div class="page">
+    <img src="images/1.png" loading="lazy">
+  </div>
+
+  <div class="page">
+    <img src="images/2.jpg" loading="lazy">
+  </div>
+
+  <div class="page">
+    <img src="images/3.jpg" loading="lazy">
+  </div>
+
+  <div class="page">
+    <img src="images/4.jpg" loading="lazy">
+  </div>  
+  <div class="page">
+    <img src="images/5.jpg" loading="lazy">  
+  </div>
+</body>
+</html>
